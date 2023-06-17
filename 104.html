@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>이벤트 객체의 target</title>
+        <script>
+            function a(n) {
+                n.style.fontSize = "1.3em";
+            }
+            let n = document.getElementsByTagName("li");
+            n.onclick = a;
+        </script>
+    </head>
+    <body>
+        <h3>아이템을 클릭하면 1.3배 크기로</h3>
+        <hr>
+        <p>방학때 할 일</p>
+        <ul>
+            <li>아아아</li>
+            <li>아아아아</li>
+            <li>아아아아아</li>
+            <li>아아아아아아</li>
+        </ul>
+    </body>
+</html>
